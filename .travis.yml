@@ -4,5 +4,6 @@ python:
 install:
   - pip install networkx[all]
   - pip install matplotlib
+  - pip install pygal
 script:
   - python test-suite.py
