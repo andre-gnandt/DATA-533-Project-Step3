@@ -1,9 +1,7 @@
 language: python
 python:
-  - "3.4"
-  - "3.5"
+  - "3.13.5"
 install:
-  - pip install -r requirements.txt
   - pip install networkx[all]
 script:
   - python test-suite.py
